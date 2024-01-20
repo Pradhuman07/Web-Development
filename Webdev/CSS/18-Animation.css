@@ -1,0 +1,48 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    animation-name: doraemon;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+/* div:hover{
+    animation-name: doraemon;
+    animation-duration: 10s;
+} */
+
+@keyframes doraemon 
+{
+    0%
+    {
+        height: 500px;
+        background-color: blueviolet;
+    }
+
+    25%
+    {
+        background-color: brown;
+        border-radius: 50%;
+    }
+
+    50%
+    {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(140, 82, 6);
+    }
+
+    75%
+    {
+        height: 100vh;
+        background-color: chartreuse;
+    }
+    100%
+    {
+        border-radius: 50%;
+        height: 10vh;
+        background-color: chartreuse;
+    }
+}

@@ -1,0 +1,11 @@
+//                   CLASS ACCESS MODIFIER      
+
+//1.Public class ko you can access anywhere
+//2.Default class ko you can access only in the same package
+//3.Abstract class ka to aap object hi nhi bna skte not even in its own class
+//4.Final class(Final access modifier)ke andr child class nhi bna skte[but bnra h r]
+//5.Strict fp kuch kaam ka nhi
+
+
+//Top level class(Main class) mein only ooper waale 5 access modifier hote h
+//Child class mein ooper ke 5 + [Private,Protected,Static]

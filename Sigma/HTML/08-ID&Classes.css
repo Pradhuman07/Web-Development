@@ -1,0 +1,16 @@
+/* Remeber Ids are accessed by (#) and Classes with (.)  */
+
+#div1
+{
+    background-color: aqua;
+}
+
+.red
+{
+    background-color: rgb(143, 131, 225);
+}
+
+.green
+{
+    color: rgb(199, 243, 23);
+}

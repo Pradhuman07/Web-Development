@@ -1,0 +1,46 @@
+/*POSITION PROPERTY OF DIV TAG*/
+/*There are 4 postion property of div ;
+they are:-
+        Position: 
+                1.Static 
+                2.Relative 
+                3.Absolute
+                4.Fixed*/
+
+div
+{
+    height: 100px;
+    width: 100px ;
+    display: inline-block;   /*inline mein hight widdth property kaam nhi krti*/
+}
+
+div:nth-of-type(1)
+{
+    background-color: rgb(141, 10, 207);
+    position: static;
+    top: 100px;    /*wont work since static*/
+}
+div:nth-of-type(2)
+{
+    background-color: brown;
+    position: relative;   /*relative mein iniial ke respect se move krega i.e 8px se ab wo 100+ hogya jbki absolute mein zero px se hoga*/
+    top: 100px;
+}
+div:nth-of-type(3)   
+{
+    background-color: green;
+    position: absolute;   /*Parent ke respect se move krta h i.e top nav bar and note..*/
+    top: 4px;    /*Note:-By default every div is 8px down from top nav bar but this is absolute wla case which has intial posiotion as parent i.e body which starts form top nav bar i.e 0px*/
+    /*Absolute ke case mein ek virtual scree pr aajata h wo waala tag to jo peeche wli screen rhti h udhar uss div ki space khaali hojati h and i.e why black wla uth kr iske(green) peeche aagya*/
+}
+div:nth-of-type(4)
+{
+    background-color: black;
+}
+
+div:nth-of-type(5)
+{
+    background-color: rgb(244, 111, 10);
+    position: fixed; /*fix mtkb screen pr fix hogyi scroll kro u will get it*/
+    top: 150px; /*static se thoda alg ...alg ye ki isko move krwa skte h*/
+}

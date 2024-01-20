@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            margin: 10px;
+            border: 5px solid black ;
+            padding: 10px;
+            height: 200px;   /*isse content ki height 200 hoywgi mtlb jo div 1 hmara jo box 1 h uski total ht. 200+2*10+2*5=230 (content ht.+padding+border)*/
+            box-sizing: border-box;  /*pr ab jo div1 ka box h uski total ht. 200 hojayegi i.e ab akele content ki ht. 200 nhi hogi..content+padding+border ko milake 200 hoyegi */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1"> I am a box</div>
+    <div class="box box2"> I am another box</div>
+    
+
+    <img width="500" src="/Sigma/Media/box model.png" alt="" style=" margin: 100px;">
+</body>
+</html>

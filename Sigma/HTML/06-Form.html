@@ -1,0 +1,88 @@
+<!-- 
+                    ==>More input types
+    Here is a comprehensive list of input types you can use in html
+
+Input-Type	      Description
+
+1.text	          Allows the user to type a single line of text.
+2.number	          Allows the user to enter a number.
+3.radio	          Represents an option in a set of options that are mutually exclusive with each other.
+4.checkbox          Represents an option in a set that may be selected independently of other options.
+5.password	      Allows the user to type a password.
+6.date	          Allows the user to select a date.
+7.submit	          Represents a button that, when pressed, submits the form.
+8.email	          Allows the user to enter an email address.
+9.url	              Allows the user to enter a URL.
+10.image	          Defines an image that acts as a submit button.
+11.file	          Allows the user to select one or more files from their device storage.
+12.color	          Allows the user to select a color.
+13.reset	          Represents a button that, when pressed, resets all the form controls to their initial values.
+14.button	          Represents a clickable button.
+15.datetime-local	  Allows the user to select a date and time with no time zone.
+16.hidden	          Represents a value that is not displayed but is submitted to the server.
+17.month	          Allows the user to select a month and year.
+18.range	          Allows the user to select a number from a range.
+19.search	          Allows the user to enter a search query string.
+20.tel	              Allows the user to enter a telephone number.
+21.time	          Allows the user to select a time.
+22.week	          Allows the user to select a week. -->
+
+<html>
+
+<head>
+    <title> Registration Form </title>
+</head>
+
+<body>
+    <h2> Student Registration Form </h2>
+
+    <form>
+
+        <div> 
+            <label for="unique"> Student Name: </label>
+            <input type="text" id="unique" placeholder="Enter your name" autofocus required>
+        </div>
+
+        <!-- label is for labelling the input tag content 
+            for is attribute which is for id ...id and for attr. makes the connection b/w input and label tag-->
+
+            <div>
+                <input type="radio" id="male" name="Gender" value="Male">
+                <label for="male"> Male </label>
+        
+                <input type="radio" id="female" name="Gender" value="Female">
+                <label for="female"> Female </label>
+            </div>
+
+        <!-- name attr. makes connection b/w 2 input tags in such a way that only one of them can be selected 
+                        *only one name is selected*          -->
+
+<!-- The "name" attribute is used for identifying the control,especially when the data is sent to the server.
+The "value" attribute sets a default value for the control, which the user can overwrite. -->
+
+        <div>    
+            <input type="checkbox" id="check" value="yes">
+            <label for="check"> 12th passed</label>
+        </div>
+
+        <div>
+            <label for="tecta">Enter your review </label>           <br>
+            <textarea id="tecta" cols="50" rows="2" placeholder="Enter your review here"></textarea>
+        </div>
+
+        <div>
+            <label for="froot"> Favourite Fruit:</label>
+            <select id="froot" name="Fruits">
+                <option value="Apple">Apple</option>
+                <option value="Mango">Mango</option>
+                <option value="Papaya">Papaya</option>
+            </select>
+        </div>
+
+        <button>submit</button>
+
+    </form>
+
+</body>
+
+</html>

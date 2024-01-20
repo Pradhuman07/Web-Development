@@ -1,0 +1,11 @@
+div
+{
+    color: rgb(5, 2, 31);
+    background-color: rgb(58, 223, 232);
+}
+
+span,p
+{
+    color: aliceblue;
+    background-color: rgb(4, 155, 80);
+}

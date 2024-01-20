@@ -1,0 +1,37 @@
+/* div
+{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+} */
+
+/* padding content aur border ke beech mein hoti h */
+/* margin <body> aur border ke beech mein lgti h #2elements */
+
+/* boxmodel ke liye check inspect..then go to body then div then neeche box */
+
+div
+{
+    border: 2px solid red;
+    background-color: green ;
+    height: 40px;   /*power roadd choda*/
+    /* display: inline;  */ /* div is now inline element not block level */
+}
+
+span
+{
+    border: 2px solid rgb(151, 195, 20);
+    background-color: blueviolet;
+
+    height: 50px;    /*no power*/
+    /* display: block; */ /*span is now block level element not inline */
+
+    /* height: 50px;
+       width: 90px; 
+       display: inline-block; */ /* ab ye div jese kaam krega u can change height and width */
+
+    /* display: none; */ /*faasi */
+    /* visibility: hidden;  *//*jail hogyi aankho ke saamne se hata dia pr h wha to space gherega */
+
+    
+}

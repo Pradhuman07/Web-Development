@@ -1,0 +1,41 @@
+h3  
+{
+    color: chocolate;
+}
+
+#one   /*id ke liye*/
+{
+    color: chartreuse;
+}
+
+.b13    /*class ke liye*/
+{
+    color: crimson;
+}
+
+input[type='text']  /* attribute selector array[]*/
+   
+{
+    background-color: rgb(213, 122, 122);    
+}
+
+
+a[href='https://google.com']
+{
+    background-color: rgb(237, 100, 210);
+}
+
+a[href^='face']   /* ^ means link ka shuruwati akshar*/
+{
+    background-color: darkblue;
+}
+
+a[href$='insta']   /* $ means link ka shuruwati akshar*/
+{
+    background-color: blueviolet;
+}
+
+a[href*='what']
+{
+    background-color: darkorange;
+}

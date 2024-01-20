@@ -1,0 +1,37 @@
+-It is a collection of Homogenous Data.
+-It is a Linear DS.
+-There are two types of Array:-
+    i)Single Dimensional (1D)
+    ii)Multiple Dimensional Array  (2D)
+
+    Syntax:-
+
+      datatype[] array_name = new datatype[size/length];
+
+    Eg:-
+         int[] arr = new int[10];
+
+         arr=[10,20,30,40,50,60,70,80,90,100]
+               0  1  2  3  4  5  6  7  8  9 
+               
+               Last index=(size/arrayLength-1)
+
+               sout(arr[4]);
+
+Total Memory = size of array * size of datatype
+Eg;- int[5 (size)] ==> 6*4 = 24 bytes
+
+Advantages (of using Array):-
+    i) No need of multiple variable names
+    ii) Data retrieve(nikaalna) krna aasan hota h
+
+Disadvantage:-
+    i)Space bach skta h (size le liye 10 , i/p liye hmne sirf 5)
+    ii)Space kam pd skta h (size le liye 10 , i/p liye hmne 20)
+
+Another Method:-
+        int [] arr={1,23,1,4,5};
+        System.out.println(arr[3]); =4
+        arr[3]=56;
+        System.out.println(arr[3]); =56
+

@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Different ways to Select the Element</title>
+        <link rel="stylesheet" href="04-ElementSelector.css">
+        <style>
+/*1.Selecting Element through its name */
+            /* div
+            {
+                background-color: aqua;
+            } */
+/*2.Selecting Element through id */   
+            #one
+            {
+                background-color: bisque;
+            }
+/*3.Selecting Element through class*/   
+            .two
+            {
+                background-color: rgb(216, 142, 51);
+            }
+/* 4.Child Selector          
+            div>p
+            {
+                color: rgb(255, 0, 0);
+            }  */
+/* 5.Descendnt Selector */
+            div p 
+            {
+                color: rgb(62, 33, 229);
+            }
+/*6.Universal Selector*/
+            *
+            {
+                margin: 0;
+                padding: 0;
+            }
+/* 7.Suedo Selector */
+            a:link   /*link ka color*/
+            {
+                color: rgb(45, 188, 183);
+            }
+            a:active   /*jb link pr click kroge tb active hogi ye property*/
+            {
+                background-color: rgb(21, 255, 0);
+            }
+            a:visited
+            {
+                color: red;
+            }
+            /* a:hover
+            {
+                background-color: rgb(166, 73, 192);
+            } */
+
+        </style>
+    </head>
+    <body>
+        <div>I am normal div</div>
+
+        <div id="one">I am div with id one</div>
+        <div class="two">I am div with class two</div>
+
+        <div><p>I am para inside div</p></div>
+        
+        <div>
+            <article>
+                <p>This is para inside article which is inside div</p>
+            </article>
+        </div>
+
+        <a href="rtbhwjrdfsfadasjh">Google</a>
+
+    </body>
+</html>

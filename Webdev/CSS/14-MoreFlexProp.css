@@ -1,0 +1,31 @@
+section
+{
+    display: flex;
+    flex-wrap: wrap;   /*used to make the website responsive ..use inspect*/
+}
+
+div
+{
+    height: 100px;
+    width: 100px;
+    /* flex-wrap: wrap; */
+}
+
+div:nth-of-type(1)
+{
+            /* wrap means ki inspect ke doran screen sukdegi to content neeche aata jyega*/
+    /* flex-shrink: 1;      shrink means agr inspect ke doran screen sukdegi to konsa wla block sbse phle sukdega */
+    flex-grow: 3; 
+    /* flex-basis: 200px; */
+    background-color: blueviolet;
+}
+div:nth-of-type(2)
+{
+    flex-grow: 2;
+    background-color: rgb(160, 9, 9);
+}
+div:nth-of-type(3)
+{
+    flex-grow: 1;
+    background-color: rgb(39, 209, 33);
+}
