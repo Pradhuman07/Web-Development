@@ -6,21 +6,7 @@ import java.util.Scanner;
 public class Q9_Merge 
 {
     public static void main(String[] args) 
-    {
-        // Scanner sc = new Scanner(System.in);
-    
-        // System.out.println("Enter the size of Array");   //Taking size input
-        // int size = sc.nextInt();
-        
-        // int arr[] = new int[size];                          //Creating an Empty Array
-        
-        // System.out.println("Enter the elements of the array");
-
-        // for(int i=0 ; i<size ; i++)                         //Inputting Elements through loop
-        // {
-        //     arr[i] = sc.nextInt();                          //Creation waale loop mein no chedchad
-        // }
-        
+    {   
         
         int[] arr1 = new int[4];    //arr1.length=4
         int[] arr2 = new int[5];    //arr2.length=5

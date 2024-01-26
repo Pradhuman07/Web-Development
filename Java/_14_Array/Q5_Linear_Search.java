@@ -1,7 +1,7 @@
 //5.WAP to search an element in an array
 package Java._14_Array;
 import java.util.*;
-public class Q5_Search 
+public class Q5_Linear_Search 
 {
     public static void main(String[] args) 
     {
@@ -43,7 +43,7 @@ public class Q5_Search
     }
 }
 
-// for(int i=0 ; i<size ; i++)        ........WRONG............
+// for(int i=0 ; i<size ; i++)   ....WRONG.....bar bar fiund found  not found not found aayega + gdbd bhi 
 // {
 //     arr[i] = sc.nextInt(); 
 
