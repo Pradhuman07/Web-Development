@@ -1,8 +1,9 @@
+//2. WAP to find product of Elements present in an Array
 package Java._14_Array;
 
 import java.util.Scanner;
 
-public class Q2 
+public class Q2_ProductofElements 
 {
     public static void main(String[] args) 
     {

@@ -7,6 +7,9 @@ public class Swap2
         int a=5;
         int b=7; 
 
+        // int a=a+b
+        
+
     }
 }
 //using third variable is only for 2 varibles

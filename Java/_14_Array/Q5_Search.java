@@ -1,7 +1,7 @@
 //5.WAP to search an element in an array
 package Java._14_Array;
 import java.util.*;
-public class Q5 
+public class Q5_Search 
 {
     public static void main(String[] args) 
     {
@@ -14,6 +14,7 @@ public class Q5
         int Search_Element = sc.nextInt();
         
         int arr[] = new int[size];
+        
         boolean flag=false;
         
         System.out.println("Enter the elements of the array");

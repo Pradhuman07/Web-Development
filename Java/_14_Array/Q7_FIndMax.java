@@ -3,7 +3,7 @@ package Java._14_Array;
 
 import java.util.Scanner;
 
-public class Q7
+public class Q7_FIndMax
 {
     public static void main(String[] args) 
     {

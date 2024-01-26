@@ -2,7 +2,7 @@
 package Java._14_Array;
 import java.util.Scanner;
 
-public class Q6 
+public class Q6_FindMin 
 {
     public static void main(String[] args) 
     {

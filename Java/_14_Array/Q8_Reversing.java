@@ -3,7 +3,7 @@ package Java._14_Array;
 
 import java.util.Scanner;
 
-public class Q8 
+public class Q8_Reversing 
 {
     public static void main(String[] args) 
     {

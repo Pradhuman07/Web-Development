@@ -36,6 +36,7 @@ public class _01_StaticInput
         
         int arr_m2[] = {10,20,30,40,50};
         int[] arr_m3 = {10,20,30,40,50};
+        
         int arr_m4[] = new int[] {10,20,30,40,50};
         int[] arr_m5 = new int[] {10,20,30,40,50};
         
