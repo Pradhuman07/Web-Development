@@ -1,8 +1,9 @@
-//Q6.WAP to find the minimum element in the array
+//Q7.WAP to find the maximum element of an array 
 package Java._14_Array;
+
 import java.util.Scanner;
 
-public class Q6 
+public class Q7
 {
     public static void main(String[] args) 
     {
@@ -15,25 +16,22 @@ public class Q6
         
         System.out.println("Enter the elements of the array");
         
-        int min=Integer.MAX_VALUE;
-
         for(int i=0 ; i<size ; i++)
         {
-            arr[i] = sc.nextInt();        //array creation ko touch mt kia kro jo bhi h bahr kra kro
+            arr[i] = sc.nextInt(); 
         }
 
+        int min=Integer.MIN_VALUE;
+
         for(int i=0 ; i<size ; i++)
         {
-            if(arr[i]<min)
+            if(arr[i]>min)
             {
                 min=arr[i];
             }
         }
-        System.out.println("The minimum element is: " + min);
-        
+
+        System.out.println("The maximum element is: " + min);
 
     }
 }
-
-//Q7.WAP to display the index at which search element is present
-//WAP to find the maximum element from an array

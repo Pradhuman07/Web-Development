@@ -33,7 +33,7 @@ public class _01_StaticInput
         arr_m1[2]=30;
         arr_m1[3]=40;
         arr_m1[4]=50;
-
+        
         int arr_m2[] = {10,20,30,40,50};
         int[] arr_m3 = {10,20,30,40,50};
         int arr_m4[] = new int[] {10,20,30,40,50};
