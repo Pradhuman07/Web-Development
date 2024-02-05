@@ -69,3 +69,8 @@
  68.WAPto check if a given number is a perfect square or not
  69.WAPto find smallest of three numbers using Ternary Operator
  70.WAPto swaptwonumberswithoutusing arithmetic operators
+
+ 1234 = 10 while loop
+ lcm hcf 
+ no. of digits
+ sum of n natural no.s
