@@ -8,7 +8,6 @@ public class _03_FloatArray
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the size of Array: ");
-        
         int size = sc.nextInt();      //Taking input for size of Array
         
         float[] arr = new float[size];    //Creating an Empty array

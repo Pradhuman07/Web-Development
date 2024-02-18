@@ -1,7 +1,7 @@
 //Q4.WAP to find the sum of even indexed elements.
 package Java._14_Array;
 import java.util.*;
-public class Q4SumAtEven 
+public class Q4_SumAtEven 
 {
     public static void main(String[] args) 
     {

@@ -1,14 +1,14 @@
-    import java.util.Scanner;
-    
-    class scrapper
-    {
-        String joy()
-        {
-            return "hello";
-        }
-    }
+package Java._06_UserInput;
 
-    
+import java.util.Scanner;
+
+class scrapper
+{
+    String joy()
+    {
+        return "hello";
+    }
+} 
 
 public class revise 
 {

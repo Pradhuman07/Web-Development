@@ -7,22 +7,23 @@ public class _04_StringArray
     {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Enter the size of Array: ");
-        
-        int size = sc.nextInt();      //Taking input for size of Array
+        System.out.println("Enter the size of Array: "); //Taking input for size of Array
+        int size = sc.nextInt();      
         
         String[] arr = new String[size];    //Creating an Empty array
 
+        System.out.println("Enter the Elements");
+
         for(int i=0 ; i<size ; i++)   //Taking input of elements of Array
         {
-            System.out.println("Enter the Elements of Array: ");
-            sc.nextLine();
-            arr[i] = sc.nextLine();
+            arr[i] = sc.next();
         }
         
+        System.out.println("Your Array is: -"); 
+
         for(String a : arr)       //Displaying the Array Elements
         {
-            System.out.println(a);
+            System.out.print(a + " ");
         }
     }
 }

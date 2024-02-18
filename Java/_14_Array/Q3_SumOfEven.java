@@ -1,7 +1,7 @@
 //Q3.WAP to find the sum of even elements of an array.
 package Java._14_Array;
 import java.util.*;
-public class Q3SumOfEven 
+public class Q3_SumOfEven 
 {
     public static void main(String[] args) 
     {

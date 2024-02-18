@@ -1,9 +1,9 @@
 package Java._14_Array;
 
-public class _05_ForEach 
+public class _05_forVsforEach 
 {
     public static void main(String[] args) {
-        int arr[] = {10,20,30};
+        int arr[] = {1,2,3};
 
         for(int i=0 ; i<3 ; i++)
         {
@@ -16,9 +16,7 @@ public class _05_ForEach
         }
     }
 }
-
-/*      
-             ForEach Loop(Advance for loop/Enhanced for loop):-
+/*      ForEach Loop(Advance for loop/Enhanced for loop):-
 
     -It is only used in the concept of Array
     -It is used for Displayiing Purpose

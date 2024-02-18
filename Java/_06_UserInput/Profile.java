@@ -1,4 +1,4 @@
-// package _06_UserInput;       //Profile is a class which is present in a package _06_UserInput
+package Java._06_UserInput;       //Profile is a class which is present in a package Java._06_UserInput
 
 import java.util.Scanner;       //Similary,Scanner is a class(used to take user input) which is present in the packet util (& util is present in the java library)
 
