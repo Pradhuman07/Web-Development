@@ -8,7 +8,7 @@ shift + cursor --> to select the text from previous cursor to new cursor
 ctrl + home/end --> to go at the top/bottom of the program
 ctrl + shift + home/end --> to select from that point to top/bottom
 
-alt + shift --> for multiple arrows together in straight up or straight down position
+alt + shift + cursor--> for multiple arrows together in straight up or straight down position
 
 shift + up --> move line up
 shift + down --> move line down

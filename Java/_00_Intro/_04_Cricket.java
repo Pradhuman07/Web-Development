@@ -1,3 +1,5 @@
+package Java._00_Intro;
+
 //Create 2 non static method named India and Srilanka
 
 //Create the object inside India and Sri lanka. 

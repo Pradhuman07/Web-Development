@@ -1,4 +1,4 @@
-package Java._15_NumberProgram;
+package Java._16_NumberProgram;
 
 public class Q01 
 {

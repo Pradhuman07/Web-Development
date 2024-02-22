@@ -1,4 +1,5 @@
-public class _05_StackOverflow 
+package Revision._01_Basic;
+public class _08_StackOverflow 
 {
     public static void main(String[] args) 
     {
@@ -8,4 +9,4 @@ public class _05_StackOverflow
     }
 }
 
-//hi,hi,hi.....after sometime error bcoz stack overflow...us stack ki allocated memory khtm
+//hi,hi,hi.....after sometime error bcoz stack overflow...uss stack ki allocated memory khtm

@@ -21,7 +21,7 @@ public class _02_DynamicInput
             System.out.println("Enter the Element of Array at index " + i + " : ");
             arr[i] = sc.nextInt();
         }
-
+ 
         System.out.println("The Array is :-");
         
         for(int a : arr)       //Displaying the Array Elements
