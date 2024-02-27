@@ -12,3 +12,5 @@ alt + shift + cursor--> for multiple arrows together in straight up or straight 
 
 shift + up --> move line up
 shift + down --> move line down
+
+ctrl + j --> Terminal
