@@ -1,5 +1,0 @@
-agr series mention h Q mein to Method ka return datatype you should use is Void
-agr check mention h Q mein to Method ka return datatype you should use is boolean
-agr print mention h Q mein to Method ka return datatype you should use is int/double/float
-String h to string 
-array h to []
